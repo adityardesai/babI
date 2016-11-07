@@ -6,4 +6,5 @@ class GlobalsClass:
     JSON_FILE="/home/aditya/newJavaSpace/babI/babiLemma/NER_JSON.txt"
     NERTEXT_FILE="/home/aditya/newJavaSpace/babI/babiLemma/NER_TEXT.txt"
     LEMMA_TEXT="/home/aditya/newJavaSpace/babI/Tests/Test_single/lemmaTest"
+    #LEMMA_TEXT="/home/aditya/newJavaSpace/babI/Tests/Test_files/"
     CORENLP_SERVER="http://localhost:9000"
