@@ -29,22 +29,22 @@ class babiLemma(object):
         originalText = ""
         lemma = ""
         resultDict = dict()
-        resultDict['Sentence'] = textLine
+        resultDict['Sentence'] = textLine.strip("\n")
         for sentence in output['sentences']:
             for tok in sentence['tokens']:
                 originalText = tok['originalText']
                 if(tok['pos'] == 'VBD' or tok['pos'] == 'VB' or tok['pos'] == 'VBG' or tok['pos'] == 'VBN'or tok['pos'] == 'VBP'or tok['pos'] == 'VBZ'):
-                    resString += "POS_Verb [" + originalText+"],"
+                    resString += "\"POS_Verb\": [" + originalText+"],"
                     lemma +=tok['lemma']
                     resultDict['POS_Verb'] = originalText
                     resultDict['Lemma_Verb'] = tok['lemma']
                 elif(tok['pos'] == 'NNP'):
-                    resString += "NNP ["  + originalText +"],"
+                    resString += "\"POS_NNP\": ["  + originalText +"],"
                     resultDict['POS_NNP'] = originalText
                 elif(tok['pos'] == 'NN'):
-                    resString += "NN [" + originalText +"]"
+                    resString += "\"POS_NN\": [" + originalText +"]"
                     resultDict['POS_NN'] = originalText
-        #self.writeString = self.writeString+textLine.strip("\n") + "\t" + "{" + resString + "}" + "\t" + "Verb Lemma" + "[" + lemma + "]"+"\n"
+        self.writeString = self.writeString+"{\"sentence\": "+"\""+textLine.strip("\n") +"\""+ "," + resString + "," + "\"Verb Lemma\"" + ": [" + lemma + "]}"+"\n"
         string1 = json.dumps(resultDict, indent=4, sort_keys=True)
         self.tempDict[self.count] = resultDict
         self.count+=1
@@ -61,6 +61,6 @@ if __name__ == "__main__":
     babiLemma = babiLemma()
     babiLemma.readInput(GlobalsClass.LEMMA_TEXT)
     babiLemma.writeToFile("","FALSE")
-    s5 = json.dumps(babiLemma.tempDict, indent=4, sort_keys=True)
-    babiLemma.writeToFile(s5, "TRUE")
+    jsonString = json.dumps(babiLemma.tempDict, indent=4, sort_keys=True)
+    babiLemma.writeToFile(jsonString, "TRUE")
     #print(babiLemma.writeString)
