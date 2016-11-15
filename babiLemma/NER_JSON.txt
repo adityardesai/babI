@@ -1,702 +1,313 @@
 {
     "1": {
-        "Lemma_Verb": "journey",
-        "POS_NN": "hallway",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "journeyed",
-        "Sentence": " Sandra journeyed to the hallway",
-        "factNum": [
-            "1"
-        ]
+        "Lemma_Verb": "move",
+        "POS_NN": "bathroom",
+        "POS_NNP": "John",
+        "POS_Verb": "moved",
+        "SNO": "1",
+        "Sentence": "John moved to the bathroom",
+        "isFact": true
     },
     "10": {
-        "Lemma_Verb": "journey",
-        "POS_NN": "bedroom",
-        "POS_NNP": "John",
-        "POS_Verb": "journeyed",
-        "Sentence": " John journeyed to the bedroom",
-        "factNum": [
-            "10"
-        ]
+        "Lemma_Verb": "go",
+        "POS_NN": "office",
+        "POS_NNP": "Daniel",
+        "POS_Verb": "went",
+        "SNO": "10",
+        "Sentence": "Daniel went back to the office",
+        "isFact": true
     },
     "11": {
-        "Lemma_Verb": "get",
-        "POS_NN": "milk",
-        "POS_NNP": "John",
-        "POS_Verb": "got",
-        "Sentence": " John got the milk there",
-        "factNum": [
-            "11"
-        ]
+        "Lemma_Verb": "journey",
+        "POS_NN": "bathroom",
+        "POS_NNP": "Daniel",
+        "POS_Verb": "journeyed",
+        "SNO": "11",
+        "Sentence": "Daniel journeyed to the bathroom",
+        "isFact": true
     },
     "12": {
-        "Lemma_Verb": "take",
-        "POS_NN": "apple",
-        "POS_NNP": "John",
-        "POS_Verb": "took",
-        "Sentence": " John took the apple there",
-        "factNum": [
-            "12"
+        "Lemma_Verb": "journey",
+        "POS_NN": "bathroom",
+        "POS_NNP": "Daniel",
+        "POS_Verb": "journeyed",
+        "SNO": "12",
+        "Sentence": "Where is John? ",
+        "answer": "kitchen",
+        "isFact": false,
+        "supportingFactNos": [
+            "8"
         ]
     },
     "13": {
-        "Lemma_Verb": "travel",
-        "POS_NN": "bathroom",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "travelled",
-        "Sentence": " Sandra travelled to the bathroom",
-        "factNum": [
-            "13"
-        ]
+        "Lemma_Verb": "go",
+        "POS_NN": "office",
+        "POS_NNP": "John",
+        "POS_Verb": "went",
+        "SNO": "13",
+        "Sentence": "John went back to the office",
+        "isFact": true
     },
     "14": {
-        "Lemma_Verb": "move",
-        "POS_NN": "bathroom",
-        "POS_NNP": "Daniel",
-        "POS_Verb": "moved",
-        "Sentence": " Daniel moved to the bathroom",
-        "factNum": [
-            "14"
-        ]
+        "Lemma_Verb": "travel",
+        "POS_NN": "bedroom",
+        "POS_NNP": "Mary",
+        "POS_Verb": "travelled",
+        "SNO": "14",
+        "Sentence": "Mary travelled to the bedroom",
+        "isFact": true
     },
     "15": {
-        "Lemma_Verb": "drop",
-        "POS_NN": "football",
-        "POS_NNP": "John",
-        "POS_Verb": "dropped",
-        "Sentence": " John dropped the football",
-        "factNum": [
-            "15"
-        ]
-    },
-    "16": {
-        "Lemma_Verb": "take",
-        "POS_NN": "football",
-        "POS_NNP": "John",
-        "POS_Verb": "took",
-        "Sentence": " John took the football there",
-        "factNum": [
-            "16"
-        ]
-    },
-    "17": {
-        "Lemma_Verb": "get",
-        "POS_NN": "milk",
+        "Lemma_Verb": "travel",
+        "POS_NN": "bedroom",
         "POS_NNP": "Mary",
-        "POS_Verb": "got",
-        "Sentence": " Mary got the milk there",
-        "factNum": [
-            "17"
-        ]
-    },
-    "18": {
-        "Lemma_Verb": "journey",
-        "POS_NN": "hallway",
-        "POS_NNP": "Mary",
-        "POS_Verb": "journeyed",
-        "Sentence": " Mary journeyed to the hallway",
-        "factNum": [
-            "18"
-        ]
-    },
-    "19": {
-        "Lemma_Verb": "move",
-        "POS_NN": "kitchen",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "moved",
-        "Sentence": " Sandra moved to the kitchen",
-        "factNum": [
-            "19"
+        "POS_Verb": "travelled",
+        "SNO": "15",
+        "Sentence": "Where is John? ",
+        "answer": "office",
+        "isFact": false,
+        "supportingFactNos": [
+            "13"
         ]
     },
     "2": {
         "Lemma_Verb": "go",
-        "POS_NN": "office",
-        "POS_NNP": "Sandra",
+        "POS_NN": "kitchen",
+        "POS_NNP": "Daniel",
         "POS_Verb": "went",
-        "Sentence": " Sandra went back to the office",
-        "factNum": [
-            "2"
-        ]
-    },
-    "20": {
-        "Lemma_Verb": "go",
-        "POS_NN": "bathroom",
-        "POS_NNP": "Mary",
-        "POS_Verb": "went",
-        "Sentence": " Mary went to the bathroom",
-        "factNum": [
-            "20"
-        ]
-    },
-    "21": {
-        "Lemma_Verb": "put",
-        "POS_NN": "milk",
-        "POS_NNP": "Mary",
-        "POS_Verb": "put",
-        "Sentence": " Mary put down the milk",
-        "factNum": [
-            "21"
-        ]
-    },
-    "22": {
-        "Lemma_Verb": "get",
-        "POS_NN": "apple",
-        "POS_NNP": "John",
-        "POS_Verb": "got",
-        "Sentence": " John got the apple there",
-        "factNum": [
-            "22"
-        ]
-    },
-    "23": {
-        "Lemma_Verb": "get",
-        "POS_NN": "milk",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "got",
-        "Sentence": " Sandra got the milk there",
-        "factNum": [
-            "23"
-        ]
-    },
-    "24": {
-        "Lemma_Verb": "put",
-        "POS_NN": "football",
-        "POS_NNP": "John",
-        "POS_Verb": "put",
-        "Sentence": " John put down the football there",
-        "factNum": [
-            "24"
-        ]
-    },
-    "25": {
-        "Lemma_Verb": "travel",
-        "POS_NN": "bathroom",
-        "POS_NNP": "John",
-        "POS_Verb": "travelled",
-        "Sentence": " John travelled to the bathroom",
-        "factNum": [
-            "25"
-        ]
-    },
-    "26": {
-        "Lemma_Verb": "go",
-        "POS_NN": "office",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "went",
-        "Sentence": " Sandra went back to the office",
-        "factNum": [
-            "26"
-        ]
-    },
-    "27": {
-        "Lemma_Verb": "go",
-        "POS_NN": "garden",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "went",
-        "Sentence": " Sandra went to the garden",
-        "factNum": [
-            "27"
-        ]
-    },
-    "28": {
-        "Lemma_Verb": "take",
-        "POS_NN": "milk",
-        "POS_NNP": "Mary",
-        "POS_Verb": "took",
-        "Sentence": " Mary took the milk there",
-        "factNum": [
-            "28"
-        ]
-    },
-    "29": {
-        "Lemma_Verb": "travel",
-        "POS_NN": "bathroom",
-        "POS_NNP": "Mary",
-        "POS_Verb": "travelled",
-        "Sentence": " Mary travelled to the bathroom",
-        "factNum": [
-            "29"
-        ]
+        "SNO": "2",
+        "Sentence": "Daniel went to the kitchen",
+        "isFact": true
     },
     "3": {
         "Lemma_Verb": "go",
-        "POS_NN": "bathroom",
-        "POS_NNP": "Daniel",
-        "POS_Verb": "went",
-        "Sentence": " Daniel went to the bathroom",
-        "factNum": [
-            "3"
-        ]
-    },
-    "30": {
-        "Lemma_Verb": "travel",
-        "POS_NN": "bedroom",
-        "POS_NNP": "John",
-        "POS_Verb": "travelled",
-        "Sentence": " John travelled to the bedroom",
-        "factNum": [
-            "30"
-        ]
-    },
-    "31": {
-        "Lemma_Verb": "go",
-        "POS_NN": "bathroom",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "went",
-        "Sentence": " Sandra went to the bathroom",
-        "factNum": [
-            "31"
-        ]
-    },
-    "32": {
-        "Lemma_Verb": "leave",
-        "POS_NN": "milk",
-        "POS_NNP": "Mary",
-        "POS_Verb": "left",
-        "Sentence": " Mary left the milk",
-        "factNum": [
-            "32"
-        ]
-    },
-    "33": {
-        "Lemma_Verb": "move",
-        "POS_NN": "kitchen",
-        "POS_NNP": "Daniel",
-        "POS_Verb": "moved",
-        "Sentence": " Daniel moved to the kitchen",
-        "factNum": [
-            "33"
-        ]
-    },
-    "34": {
-        "Lemma_Verb": "journey",
-        "POS_NN": "kitchen",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "journeyed",
-        "Sentence": " Sandra journeyed to the kitchen",
-        "factNum": [
-            "34"
-        ]
-    },
-    "35": {
-        "Lemma_Verb": "go",
-        "POS_NN": "hallway",
-        "POS_NNP": "Mary",
-        "POS_Verb": "went",
-        "Sentence": " Mary went back to the hallway",
-        "factNum": [
-            "35"
-        ]
-    },
-    "36": {
-        "Lemma_Verb": "move",
-        "POS_NN": "office",
-        "POS_NNP": "Daniel",
-        "POS_Verb": "moved",
-        "Sentence": " Daniel moved to the office",
-        "factNum": [
-            "36"
-        ]
-    },
-    "37": {
-        "Lemma_Verb": "go",
         "POS_NN": "kitchen",
         "POS_NNP": "Daniel",
         "POS_Verb": "went",
-        "Sentence": " Daniel went back to the kitchen",
-        "factNum": [
-            "37"
-        ]
-    },
-    "38": {
-        "Lemma_Verb": "go",
-        "POS_NN": "office",
-        "POS_NNP": "John",
-        "POS_Verb": "went",
-        "Sentence": " John went back to the office",
-        "factNum": [
-            "38"
-        ]
-    },
-    "39": {
-        "Lemma_Verb": "travel",
-        "POS_NN": "bathroom",
-        "POS_NNP": "Daniel",
-        "POS_Verb": "travelled",
-        "Sentence": " Daniel travelled to the bathroom",
-        "factNum": [
-            "39"
+        "SNO": "3",
+        "Sentence": "Where is John? ",
+        "answer": "bathroom",
+        "isFact": false,
+        "supportingFactNos": [
+            "1"
         ]
     },
     "4": {
-        "Lemma_Verb": "move",
-        "POS_NN": "bedroom",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "moved",
-        "Sentence": " Sandra moved to the bedroom",
-        "factNum": [
-            "4"
-        ]
-    },
-    "40": {
-        "Lemma_Verb": "leave",
-        "POS_NN": "football",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "left",
-        "Sentence": " Sandra left the football",
-        "factNum": [
-            "40"
-        ]
-    },
-    "41": {
-        "Lemma_Verb": "go",
+        "Lemma_Verb": "travel",
         "POS_NN": "kitchen",
-        "POS_NNP": "Mary",
-        "POS_Verb": "went",
-        "Sentence": " Mary went back to the kitchen",
-        "factNum": [
-            "41"
-        ]
-    },
-    "42": {
-        "Lemma_Verb": "travel",
-        "POS_NN": "office",
-        "POS_NNP": "John",
-        "POS_Verb": "travelled",
-        "Sentence": " John travelled to the office",
-        "factNum": [
-            "42"
-        ]
-    },
-    "43": {
-        "Lemma_Verb": "drop",
-        "POS_NN": "football",
-        "POS_NNP": "Daniel",
-        "POS_Verb": "dropped",
-        "Sentence": " Daniel dropped the football",
-        "factNum": [
-            "43"
-        ]
-    },
-    "44": {
-        "Lemma_Verb": "go",
-        "POS_NN": "office",
         "POS_NNP": "Sandra",
-        "POS_Verb": "went",
-        "Sentence": " Sandra went back to the office",
-        "factNum": [
-            "44"
-        ]
-    },
-    "45": {
-        "Lemma_Verb": "go",
-        "POS_NN": "bedroom",
-        "POS_NNP": "Mary",
-        "POS_Verb": "went",
-        "Sentence": " Mary went back to the bedroom",
-        "factNum": [
-            "45"
-        ]
-    },
-    "46": {
-        "Lemma_Verb": "take",
-        "POS_NN": "apple",
-        "POS_NNP": "John",
-        "POS_Verb": "took",
-        "Sentence": " John took the apple there",
-        "factNum": [
-            "46"
-        ]
-    },
-    "47": {
-        "Lemma_Verb": "journey",
-        "POS_NN": "bathroom",
-        "POS_NNP": "John",
-        "POS_Verb": "journeyed",
-        "Sentence": " John journeyed to the bathroom",
-        "factNum": [
-            "47"
-        ]
-    },
-    "48": {
-        "Lemma_Verb": "travel",
-        "POS_NN": "garden",
-        "POS_NNP": "Daniel",
         "POS_Verb": "travelled",
-        "Sentence": " Daniel travelled to the garden",
-        "factNum": [
-            "48"
-        ]
-    },
-    "49": {
-        "Lemma_Verb": "discard",
-        "POS_NN": "milk",
-        "POS_NNP": "Daniel",
-        "POS_Verb": "discarded",
-        "Sentence": " Daniel discarded the milk there",
-        "factNum": [
-            "49"
-        ]
+        "SNO": "4",
+        "Sentence": "Sandra travelled to the kitchen",
+        "isFact": true
     },
     "5": {
-        "Lemma_Verb": "go",
-        "POS_NN": "garden",
-        "POS_NNP": "John",
-        "POS_Verb": "went",
-        "Sentence": " John went back to the garden",
-        "factNum": [
-            "5"
-        ]
-    },
-    "50": {
-        "Lemma_Verb": "go",
-        "POS_NN": "office",
-        "POS_NNP": "Daniel",
-        "POS_Verb": "went",
-        "Sentence": " Daniel went back to the office",
-        "factNum": [
-            "50"
-        ]
-    },
-    "51": {
-        "Lemma_Verb": "put",
-        "POS_NN": "apple",
-        "POS_NNP": "John",
-        "POS_Verb": "put",
-        "Sentence": " John put down the apple",
-        "factNum": [
-            "51"
-        ]
-    },
-    "52": {
-        "Lemma_Verb": "go",
+        "Lemma_Verb": "travel",
         "POS_NN": "hallway",
-        "POS_NNP": "Daniel",
-        "POS_Verb": "went",
-        "Sentence": " Daniel went to the hallway",
-        "factNum": [
-            "52"
-        ]
-    },
-    "53": {
-        "Lemma_Verb": "get",
-        "POS_NN": "apple",
-        "POS_NNP": "John",
-        "POS_Verb": "got",
-        "Sentence": " John got the apple there",
-        "factNum": [
-            "53"
-        ]
-    },
-    "54": {
-        "Lemma_Verb": "drop",
-        "POS_NN": "apple",
-        "POS_NNP": "John",
-        "POS_Verb": "dropped",
-        "Sentence": " John dropped the apple there",
-        "factNum": [
-            "54"
-        ]
-    },
-    "55": {
-        "Lemma_Verb": "go",
-        "POS_NN": "bedroom",
-        "POS_NNP": "Daniel",
-        "POS_Verb": "went",
-        "Sentence": " Daniel went back to the bedroom",
-        "factNum": [
-            "55"
-        ]
-    },
-    "56": {
-        "Lemma_Verb": "move",
-        "POS_NN": "kitchen",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "moved",
-        "Sentence": " Sandra moved to the kitchen",
-        "factNum": [
-            "56"
-        ]
-    },
-    "57": {
-        "Lemma_Verb": "pick",
-        "POS_NN": "milk",
-        "POS_NNP": "Daniel",
-        "POS_Verb": "picked",
-        "Sentence": " Daniel picked up the milk there",
-        "factNum": [
-            "57"
-        ]
-    },
-    "58": {
-        "Lemma_Verb": "go",
-        "POS_NN": "bedroom",
         "POS_NNP": "Mary",
-        "POS_Verb": "went",
-        "Sentence": " Mary went back to the bedroom",
-        "factNum": [
-            "58"
-        ]
-    },
-    "59": {
-        "Lemma_Verb": "leave",
-        "POS_NN": "milk",
-        "POS_NNP": "Daniel",
-        "POS_Verb": "left",
-        "Sentence": " Daniel left the milk there",
-        "factNum": [
-            "59"
-        ]
+        "POS_Verb": "travelled",
+        "SNO": "5",
+        "Sentence": "Mary travelled to the hallway",
+        "isFact": true
     },
     "6": {
         "Lemma_Verb": "travel",
-        "POS_NN": "bedroom",
-        "POS_NNP": "Mary",
-        "POS_Verb": "travelled",
-        "Sentence": " Mary travelled to the bedroom",
-        "factNum": [
-            "6"
-        ]
-    },
-    "60": {
-        "Lemma_Verb": "move",
-        "POS_NN": "office",
-        "POS_NNP": "John",
-        "POS_Verb": "moved",
-        "Sentence": " John moved to the office",
-        "factNum": [
-            "60"
-        ]
-    },
-    "61": {
-        "Lemma_Verb": "go",
-        "POS_NN": "bedroom",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "went",
-        "Sentence": " Sandra went back to the bedroom",
-        "factNum": [
-            "61"
-        ]
-    },
-    "62": {
-        "Lemma_Verb": "travel",
-        "POS_NN": "office",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "travelled",
-        "Sentence": " Sandra travelled to the office",
-        "factNum": [
-            "62"
-        ]
-    },
-    "63": {
-        "Lemma_Verb": "go",
-        "POS_NN": "kitchen",
-        "POS_NNP": "John",
-        "POS_Verb": "went",
-        "Sentence": " John went to the kitchen",
-        "factNum": [
-            "63"
-        ]
-    },
-    "64": {
-        "Lemma_Verb": "travel",
         "POS_NN": "hallway",
-        "POS_NNP": "Daniel",
+        "POS_NNP": "Mary",
         "POS_Verb": "travelled",
-        "Sentence": " Daniel travelled to the hallway",
-        "factNum": [
-            "64"
-        ]
-    },
-    "65": {
-        "Lemma_Verb": "put",
-        "POS_NN": "milk",
-        "POS_NNP": "Mary",
-        "POS_Verb": "put",
-        "Sentence": " Mary put down the milk",
-        "factNum": [
-            "65"
-        ]
-    },
-    "66": {
-        "Lemma_Verb": "journey",
-        "POS_NN": "office",
-        "POS_NNP": "Daniel",
-        "POS_Verb": "journeyed",
-        "Sentence": " Daniel journeyed to the office",
-        "factNum": [
-            "66"
-        ]
-    },
-    "68": {
-        "Lemma_Verb": "grab",
-        "POS_NN": "milk",
-        "POS_NNP": "Mary",
-        "POS_Verb": "grabbed",
-        "Sentence": " Mary grabbed the milk there",
-        "factNum": [
-            "68"
-        ]
-    },
-    "69": {
-        "Lemma_Verb": "go",
-        "POS_NN": "kitchen",
-        "POS_NNP": "Mary",
-        "POS_Verb": "went",
-        "Sentence": " Mary went to the kitchen",
-        "factNum": [
-            "69"
+        "SNO": "6",
+        "Sentence": "Where is Daniel? ",
+        "answer": "kitchen",
+        "isFact": false,
+        "supportingFactNos": [
+            "2"
         ]
     },
     "7": {
         "Lemma_Verb": "go",
-        "POS_NN": "office",
-        "POS_NNP": "Sandra",
-        "POS_Verb": "went",
-        "Sentence": " Sandra went back to the office",
-        "factNum": [
-            "7"
-        ]
-    },
-    "71": {
-        "Lemma_Verb": "go",
-        "POS_NN": "bedroom",
-        "POS_NNP": "John",
-        "POS_Verb": "went",
-        "Sentence": " John went back to the bedroom",
-        "factNum": [
-            "71"
-        ]
-    },
-    "72": {
-        "Lemma_Verb": "journey",
         "POS_NN": "bathroom",
         "POS_NNP": "Sandra",
-        "POS_Verb": "journeyed",
-        "Sentence": " Sandra journeyed to the bathroom",
-        "factNum": [
-            "72"
-        ]
+        "POS_Verb": "went",
+        "SNO": "7",
+        "Sentence": "Sandra went back to the bathroom",
+        "isFact": true
     },
     "8": {
-        "Lemma_Verb": "move",
+        "Lemma_Verb": "go",
         "POS_NN": "kitchen",
         "POS_NNP": "John",
+        "POS_Verb": "went",
+        "SNO": "8",
+        "Sentence": "John went back to the kitchen",
+        "isFact": true
+    },
+    "9": {
+        "Lemma_Verb": "go",
+        "POS_NN": "kitchen",
+        "POS_NNP": "John",
+        "POS_Verb": "went",
+        "SNO": "9",
+        "Sentence": "Where is Mary? ",
+        "answer": "hallway",
+        "isFact": false,
+        "supportingFactNos": [
+            "5"
+        ]
+    }
+}{
+    "1": {
+        "Lemma_Verb": "move",
+        "POS_NN": "bathroom",
+        "POS_NNP": "John",
         "POS_Verb": "moved",
-        "Sentence": " John moved to the kitchen",
-        "factNum": [
+        "SNO": "1",
+        "Sentence": "John moved to the bathroom",
+        "isFact": true
+    },
+    "10": {
+        "Lemma_Verb": "go",
+        "POS_NN": "office",
+        "POS_NNP": "Daniel",
+        "POS_Verb": "went",
+        "SNO": "10",
+        "Sentence": "Daniel went back to the office",
+        "isFact": true
+    },
+    "11": {
+        "Lemma_Verb": "journey",
+        "POS_NN": "bathroom",
+        "POS_NNP": "Daniel",
+        "POS_Verb": "journeyed",
+        "SNO": "11",
+        "Sentence": "Daniel journeyed to the bathroom",
+        "isFact": true
+    },
+    "12": {
+        "Lemma_Verb": "be",
+        "POS_NNP": "John",
+        "POS_Verb": "is",
+        "POS_WRB": "Where",
+        "SNO": "12",
+        "Sentence": "Where is John? ",
+        "answer": "kitchen",
+        "isFact": false,
+        "supportingFactNos": [
             "8"
         ]
     },
-    "9": {
-        "Lemma_Verb": "get",
-        "POS_NN": "football",
+    "13": {
+        "Lemma_Verb": "go",
+        "POS_NN": "office",
         "POS_NNP": "John",
-        "POS_Verb": "got",
-        "Sentence": " John got the football there",
-        "factNum": [
-            "9"
+        "POS_Verb": "went",
+        "SNO": "13",
+        "Sentence": "John went back to the office",
+        "isFact": true
+    },
+    "14": {
+        "Lemma_Verb": "travel",
+        "POS_NN": "bedroom",
+        "POS_NNP": "Mary",
+        "POS_Verb": "travelled",
+        "SNO": "14",
+        "Sentence": "Mary travelled to the bedroom",
+        "isFact": true
+    },
+    "15": {
+        "Lemma_Verb": "be",
+        "POS_NNP": "John",
+        "POS_Verb": "is",
+        "POS_WRB": "Where",
+        "SNO": "15",
+        "Sentence": "Where is John? ",
+        "answer": "office",
+        "isFact": false,
+        "supportingFactNos": [
+            "13"
+        ]
+    },
+    "2": {
+        "Lemma_Verb": "go",
+        "POS_NN": "kitchen",
+        "POS_NNP": "Daniel",
+        "POS_Verb": "went",
+        "SNO": "2",
+        "Sentence": "Daniel went to the kitchen",
+        "isFact": true
+    },
+    "3": {
+        "Lemma_Verb": "be",
+        "POS_NNP": "John",
+        "POS_Verb": "is",
+        "POS_WRB": "Where",
+        "SNO": "3",
+        "Sentence": "Where is John? ",
+        "answer": "bathroom",
+        "isFact": false,
+        "supportingFactNos": [
+            "1"
+        ]
+    },
+    "4": {
+        "Lemma_Verb": "travel",
+        "POS_NN": "kitchen",
+        "POS_NNP": "Sandra",
+        "POS_Verb": "travelled",
+        "SNO": "4",
+        "Sentence": "Sandra travelled to the kitchen",
+        "isFact": true
+    },
+    "5": {
+        "Lemma_Verb": "travel",
+        "POS_NN": "hallway",
+        "POS_NNP": "Mary",
+        "POS_Verb": "travelled",
+        "SNO": "5",
+        "Sentence": "Mary travelled to the hallway",
+        "isFact": true
+    },
+    "6": {
+        "Lemma_Verb": "be",
+        "POS_NNP": "Daniel",
+        "POS_Verb": "is",
+        "POS_WRB": "Where",
+        "SNO": "6",
+        "Sentence": "Where is Daniel? ",
+        "answer": "kitchen",
+        "isFact": false,
+        "supportingFactNos": [
+            "2"
+        ]
+    },
+    "7": {
+        "Lemma_Verb": "go",
+        "POS_NN": "bathroom",
+        "POS_NNP": "Sandra",
+        "POS_Verb": "went",
+        "SNO": "7",
+        "Sentence": "Sandra went back to the bathroom",
+        "isFact": true
+    },
+    "8": {
+        "Lemma_Verb": "go",
+        "POS_NN": "kitchen",
+        "POS_NNP": "John",
+        "POS_Verb": "went",
+        "SNO": "8",
+        "Sentence": "John went back to the kitchen",
+        "isFact": true
+    },
+    "9": {
+        "Lemma_Verb": "be",
+        "POS_NNP": "Mary",
+        "POS_Verb": "is",
+        "POS_WRB": "Where",
+        "SNO": "9",
+        "Sentence": "Where is Mary? ",
+        "answer": "hallway",
+        "isFact": false,
+        "supportingFactNos": [
+            "5"
         ]
     }
 }

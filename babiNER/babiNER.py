@@ -76,4 +76,9 @@ class babiNER:
         self.namedEntitiesList = st.tag(tokenized_text)
         #print(self.namedEntitiesList)
         self.writeNERResults()
-    
+    def newTokens(self):
+        import csv
+        with io.open("/home/aditya/newJavaSpace/babI/babiNER/Vocab.tsv", "r") as tsvin:
+            tsvin =csv.reader(tsvin, delimiter='\t')
+            for row in tsvin:
+                print(row)

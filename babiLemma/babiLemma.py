@@ -36,18 +36,21 @@ class babiLemma(object):
         for sentence in output['sentences']:
             for tok in sentence['tokens']:
                 originalText = tok['originalText']
-                resultDict['factNum'] = factNum
+                resultDict['SNO'] = factNum
                 if(tok['pos'] == 'VBD' or tok['pos'] == 'VB' or tok['pos'] == 'VBG' or tok['pos'] == 'VBN'or tok['pos'] == 'VBP'or tok['pos'] == 'VBZ'):
-                    resString += "\"POS_Verb\": [" + originalText+"],"
+                    #resString += "\"POS_Verb\": [" + originalText+"],"
                     lemma +=tok['lemma']
                     resultDict['POS_Verb'] = originalText
                     resultDict['Lemma_Verb'] = tok['lemma']
                 elif(tok['pos'] == 'NNP'):
-                    resString += "\"POS_NNP\": ["  + originalText +"],"
+                    #resString += "\"POS_NNP\": ["  + originalText +"],"
                     resultDict['POS_NNP'] = originalText
                 elif(tok['pos'] == 'NN'):
-                    resString += "\"POS_NN\": [" + originalText +"]"
+                    #resString += "\"POS_NN\": [" + originalText +"]"
                     resultDict['POS_NN'] = originalText
+                elif(tok['pos'] == 'WRB'):
+                    #resString += "\"POS_WRB\": [" + originalText +"]"
+                    resultDict['POS_WRB'] = originalText
         #self.writeString = self.writeString+"{\"factNum\": "+str(self.count)+","+"\"sentence\": "+"\""+textLine.strip("\n") +"\""+ "," + resString + "," + "\"Verb Lemma\"" + ": [" + lemma + "]}"+"\n"
         with open(GlobalsClass.NERTEXT_FILE, "a+") as textFile:
             json.dump(resultDict,textFile)
